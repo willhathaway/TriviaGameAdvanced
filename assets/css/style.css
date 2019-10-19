@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+body {
+    background-image: url("../images/escher-background.jpg");
+    float: left;
+    background-color: black;
+   }
+
+.container {
+    font-family: 'Josefin Sans', sans-serif;
+
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.jumbotron {
+    background: lightcyan;
+    margin: 10px 10px 0px 10px !important;
+    padding: 10px !important;
+}
+
+#questions {
+    display: none;
+}
+
+#timer {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#submit {
+    margin: 10px;
+    padding: 10px;
+    display: none;
+}
+
+#result {
+    background-color: lightcyan;
+    margin: 10px;
+    padding: 10px;
+}
+
+.questionForm {
+    background-color: rgb(164, 216, 216);
+    border-style: solid;
+    border-width: 1px;
+    border-color: slategray;
+}
+
+.answer {
+    margin: 5px;
+    padding: 5px;
+}
+
+h3 {
+    margin:5px;
+    padding: 5px;
+}
